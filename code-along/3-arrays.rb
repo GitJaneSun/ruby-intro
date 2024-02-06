@@ -28,7 +28,7 @@ favorate_foods.push("burgers")
 # first_favorite_food = favorate_foods [0]
 # puts first_favorite_food
 #  这行代码从favorate_foods数组中取出了第一个元素
-# （注意，Ruby中数组的索引从0开始）
+# （Ruby中数组的索引从0开始）
 
 # Add Ben's food to the list
 # bens_foods = ["mango","rice"]
