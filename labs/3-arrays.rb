@@ -7,11 +7,31 @@
 # Create two data structures - one for your list of stuff, and one
 # for your friend, e.g. you want milk, eggs, and bacon, and
 # your friend wants beer, cookies, and apples.
+My_shopping_list = ["Milk", "Eggs", "Beer"]
+
+Friend_shopping_list = ["Beer", "Cookies", "Apples"]
+
 # Programmatically combine the two arrays into a single list,
+Shoppinglist = My_shopping_list + Friend_shopping_list
+# puts Shoppinglist
+
 # sort the result (alphabetically), and write it to the screen.
+sorted_list = Shoppinglist.sort
+# puts sorted_list
+
 # If the two lists contain the same item, only show it once!
+unique_list = sorted_list.uniq
+# puts unique_list
+
 # Lastly, display each item in the list prepended with "buy ".
+puts "Buy #{unique_list[0]}"
+puts "Buy #{unique_list[1]}"
+puts "Buy #{unique_list[2]}"
+puts "Buy #{unique_list[3]}"
+puts "Buy #{unique_list[4]}"
 
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+

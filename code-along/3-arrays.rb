@@ -31,8 +31,10 @@ favorate_foods.push("burgers")
 # （Ruby中数组的索引从0开始）
 
 # Add Ben's food to the list
-# bens_foods = ["mango","rice"]
+bens_foods = ["mango","rice"]
 # combined_favorites = favorate_foods + bens_foods
 # puts combined_favorites
 
-
+# arrays of arrays
+combined_favorites = [favorate_foods, bens_foods]
+puts combined_favorites [1][0]
